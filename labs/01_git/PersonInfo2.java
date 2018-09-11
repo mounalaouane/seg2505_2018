@@ -18,7 +18,7 @@ public class PersonInfo2 {
     
     public static void displayEn() {
         String out = SIConstants.GREETING_EN;
-        out += " " + firstName + " " + lastName + '.';
+        out += " " + firstName + "  " + lastName + '.';
         out += SIConstants.STUDENT_NUMBER_EN + studentNo + '.';
         out += SIConstants.DESCRIPTION_EN + description + '.';
         out += SIConstants.EOL;
